@@ -15,4 +15,4 @@ Currently, two official plugins are available:
 - react-router
 - eslint-standard
 
-![alt text](image.png)
+![alt text](captura_pantalla.png)
