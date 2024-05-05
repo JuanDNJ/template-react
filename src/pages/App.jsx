@@ -1,6 +1,6 @@
-import { useDispatch, useSelector } from "./store";
-import { discount, increase } from "./store/slices/counter";
-import reackIcon from "./assets/react.svg";
+import { useDispatch, useSelector } from "../store";
+import { discount, increase } from "../store/slices/counter";
+import reackIcon from "../assets/react.svg";
 export default function App() {
   const helloWord = "Hello Word!";
 
@@ -8,9 +8,9 @@ export default function App() {
   const dispatch = useDispatch();
 
   return (
-    <div className="bg-stone-800 h-screen max-w-7xl m-auto text-stone-200 flex flex-col gap-4 justify-center items-center">
+    <article className="flex flex-col items-center justify-center h-[768px] gap-8">
+      <h2 className="text-7xl text-pink-500 font-bold">{helloWord}</h2>
       <img src={reackIcon} width={96} height={96} alt="Icon" />
-      <h1 className="text-7xl text-pink-500 font-bold">{helloWord}</h1>
       <div className="flex flex-col gap-4">
         <div className="flex justify-center">
           <strong className="text-xl ring-2 ring-red-700 size-11 flex items-center justify-center  rounded-full">
@@ -24,6 +24,6 @@ export default function App() {
           </button>
         </div>
       </div>
-    </div>
+    </article>
   );
 }
