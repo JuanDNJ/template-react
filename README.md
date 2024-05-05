@@ -14,3 +14,5 @@ Currently, two official plugins are available:
 - tailwindcss
 - react-router
 - eslint-standard
+
+![alt text](image.png)
