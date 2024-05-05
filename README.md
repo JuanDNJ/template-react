@@ -12,4 +12,5 @@ Currently, two official plugins are available:
 - redux
 - redux-toolkit
 - tailwindcss
+- react-router
 - eslint-standard
